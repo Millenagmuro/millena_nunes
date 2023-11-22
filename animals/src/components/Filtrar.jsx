@@ -11,8 +11,6 @@ function Filtrar({ filtrar, setFiltrar, search, setSearch, setSort }) {
           />
           <select value={filtrar} onChange={(e) => setFiltrar(e.target.value)}>
             <option value="Todos">Todos</option>
-            <option value="Encontrados">Encontrados</option>
-            <option value="Perdidos">Em procura</option>
           </select>
           <button
             type="button"
