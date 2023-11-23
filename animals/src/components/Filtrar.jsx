@@ -1,7 +1,7 @@
 function Filtrar({ filtrar, setFiltrar, search, setSearch, setSort }) {
     return (
       <>
-        <h2>Filtrar</h2>
+        <h2>Pesquise características</h2>
         <div className="filtrar">
           <input
             type="text"

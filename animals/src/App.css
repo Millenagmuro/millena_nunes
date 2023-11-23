@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -39,22 +40,28 @@ body {
   justify-content: space-between;
 }
 .acoes {
+  border-radius: 5px;
+  margin-top: 20pxpx;
   width: 100px;
   padding: 5px;
   background-color: rgb(147, 147, 147);
 }
 
 .botaoProcura {
+  margin-top: 20px;
   width: 80px;
   background-color: #6dd2ed;
   color: #fff;
   padding: 5px;
+  border-radius: 5px;
 }
 .botaoEncontrado {
+  margin-top: 20px;
   width: 90px;
   background-color: #f885d9;
   color: #fff;
   padding: 5px;
+  border-radius: 5px;
   
 }
 .cadastrar {
@@ -131,9 +138,11 @@ form {
 }
 
 .imagem{
-  height: 20px;
+  height: 10px;
 }
 
 #imagem{
   height: 20px;
 }
+
+
